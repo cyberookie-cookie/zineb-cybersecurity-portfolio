@@ -13,6 +13,10 @@ Responsive React, Vite, and TypeScript portfolio with client-side routing, dark/
 
 The supplied CV is stored at `public/Zineb-El-Hadri-CV.pdf`; the download button saves it with that filename. The supplied portrait is stored at `public/zineb-el-hadri.jpg` and used in the responsive hero frame.
 
+## Project visuals
+
+Project images and diagrams live in `public/images/projects/`. The screenshot slots expect `multi-llm-fraud-dashboard.png` and `brute-force-login.png`. Replace either file at the same path to update its project preview. The original screenshots are included. The Active Directory, Azure conceptual, and RAG diagrams are the corresponding `.svg` files in that directory.
+
 ## Deploy to Vercel
 
 Import this folder as a Vite project. Use `npm run build` and `dist` as the output directory. `vercel.json` routes client-side paths to the app entry point.
